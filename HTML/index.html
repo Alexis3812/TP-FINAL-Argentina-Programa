@@ -5,94 +5,227 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/style.css">
-    <title>Document</title>
+    <link rel="icon" type="image/png" href="../Imagenes/PlanetaCream-Logo.png">
+    <title>Planeta Cream & Helados Artesanales</title>
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="">
-        <div class="navbar">
-            <div class="izquierda">
-                <a class="nav-item" href="#">Inicio</a>
-                <a class="nav-item" href="#">Sobre nosotros</a>
-                <a class="nav-item" href="#">Galeria</a>
-            </div>
-            <a class="nav-item" href="#">Heladeria</a>
-            <div class="derecha">
-                <a class="nav-item" href="#">Blog</a>
-                <a class="nav-item" href="#">Review</a>
-                <a class="nav-item" href="#">Contacto</a>
-            </div>
+    <div class="navbar">
+        <div class="izquierda">
+            <a class="nav-item" href="#inicio">Inicio</a>
+            <a class="nav-item" href="#sobre-nosotros">Sobre Nosotros</a>
+            <a class="nav-item" href="#menu">Menu</a>
         </div>
-    </nav>
+        <img class="" src="../Imagenes/PlanetaCream-Logo.png" alt="Logo">
+        <div class="derecha">
+            <a class="nav-item" href="#review">Review</a>
+            <a class="nav-item" href="#ubicacion">Ubicacion</a>
+            <a class="nav-item" href="#contacto">Contacto</a>
+        </div>
+    </div>
 
     <!-- header -->
-    <header id="home" class="header">
+    <div id="inicio" class="header">
         <div class="">
-            <h1 class="">Heladeria</h1>
+            <h1 class="">Planeta Cream</h1>
             <h2 class="">Helados Artesanales</h2>
-            <a class="" href="#galeria">Mira nuestra galeria</a>
         </div>
-    </header>
+    </div>
 
     <!--  Sobre Nosotros  -->
-    <div id="sobre-nosotros" class="" id="sobre-nosotros">
-        <div class="">
-            <div class=""></div>
-            <div class="">
-                <div class="">
-                    <div class="">
-                        <h2 class="">Sobre Nosotros</h2>
-                        <p>Nuestra heladería es un paraíso para los amantes del helado. Desde el momento en que entras, serás recibido por una decoración colorida y alegre, que te hará sentir como si estuvieras en un mundo de fantasía. El aroma dulce y tentador del helado fresco se extiende por todo el lugar, invitándote a probar alguno de nuestros sabores artesanales únicos y deliciosos.</p>
-                        <p>Ofrecemos una amplia variedad de opciones de helado, desde los sabores más clásicos hasta los más innovadores y atrevidos. Todos nuestros helados están hechos con ingredientes de alta calidad, frescos y naturales, lo que los hace irresistibles. También ofrecemos opciones para aquellos que tienen alergias alimentarias o intolerancias, como helados sin lactosa o sin gluten.</p>
-                        <p><b>Además del helado, también contamos con una selección de bebidas frías y calientes, como café y té helado, batidos y malteadas, para complementar tu experiencia de heladería</b>.</p>
-                        <p>Nuestro objetivo es hacer que cada visita a nuestra heladería sea una experiencia inolvidable para ti y tus seres queridos. Ya sea que estés buscando un lugar para disfrutar de un postre después de la cena o simplemente para darte un capricho, ¡ven a visitarnos y descubre por qué somos el destino favorito de los amantes del helado!</p>
-                    </div>
-                </div>
-            </div>
+    <div id="sobre-nosotros" class="sobre-nosotros">
+        <div class="imagen">
+            <img src="../Imagenes/SobreNosotros.jpg" alt="">
+        </div>
+        <div class="texto">
+            <h2>Sobre Nosotros</h2>
+            <p>Nuestra heladería es un paraíso para los amantes del helado. Desde el momento en que entras, serás recibido por una decoración colorida y alegre, que te hará sentir como si estuvieras en un mundo de fantasía. El aroma dulce y tentador del helado fresco se extiende por todo el lugar, invitándote a probar alguno de nuestros sabores artesanales únicos y deliciosos.</p>
+            <p>Ofrecemos una amplia variedad de opciones de helado, desde los sabores más clásicos hasta los más innovadores y atrevidos. Todos nuestros helados están hechos con ingredientes de alta calidad, frescos y naturales, lo que los hace irresistibles. También ofrecemos opciones para aquellos que tienen alergias alimentarias o intolerancias, como helados sin lactosa o sin gluten.</p>
+            <p><b>Además del helado, también contamos con una selección de bebidas frías y calientes, como café y té helado, batidos y malteadas, para complementar tu experiencia de heladería</b>.</p>
+            <p>Nuestro objetivo es hacer que cada visita a nuestra heladería sea una experiencia inolvidable para ti y tus seres queridos. Ya sea que estés buscando un lugar para disfrutar de un postre después de la cena o simplemente para darte un capricho, ¡ven a visitarnos y descubre por qué somos el destino favorito de los amantes del helado!</p>
         </div>
     </div>
 
     <!--  Galeria  -->
-    <div id="galeria" >
+    <div id="menu" class="menu" >
         <h2 class="titulo-seccion">Nuestro Menu</h2>
     </div>
-    <div class="div-imagen-galeria">
-        <div class="">
-            <img src="../Imagenes/helado1.jpg" class="imagen-galeria" alt="familiar3lt">
+    <!--================ Start Slider ================-->
+    <div class="slider">
+        <div class="slides">
+            <div class="div-imagen-menu">
+                <figure>
+                    <img src="../Imagenes/helado1.jpg" class="imagen-menu" alt="familiar3lt">
+                    <div class="capa">
+                        <p>Familiar</p><br>
+                        <p>Este es especial para compartir con la familia, viene con 3 combinaciones de sabores:</p><br>
+                        <br><br>
+                        <ul>
+                            <li>Americana, chocolate y dulce de leche</li>
+                            <li>Dulce de leche granizado, americana y frutilla</li>
+                            <li>Vainilla, dulce de leche granizado y chocolate</li>
+                        </ul>
+                    </div>    
+                </figure>
+                <figure>
+                    <img src="../Imagenes/helado2.jpg" class="imagen-menu" alt="capelinas-nuez"> 
+                    <div class="capa">
+                        <p>Capelinas</p><br>
+                        <p>Descripcion</p>
+                        <br><br>
+                        <ul>
+                            <li>Sabor1</li>
+                            <li>Sabor2</li>
+                            <li>Sabor3</li>
+                        </ul>
+                    </div>
+                </figure>
+                <figure>
+                    <img src="../Imagenes/helado3.jpg" class="imagen-menu" alt="cucuruchos">
+                    <div class="capa">
+                        <p>Cucuruchos</p><br>
+                        <p>Descripcion</p>
+                        <br><br>
+                        <ul>
+                            <li>Sabor1</li>
+                            <li>Sabor2</li>
+                            <li>Sabor3</li>
+                        </ul>
+                    </div>
+                </figure>    
+                <figure>
+                    <img src="../Imagenes/helado4.jpg" class="imagen-menu" alt="palitos">
+                    <div class="capa">
+                        <p>Palitos</p><br>
+                        <p>Descripcion</p>
+                        <br><br>
+                        <ul>
+                            <li>Sabor1</li>
+                            <li>Sabor2</li>
+                            <li>Sabor3</li>
+                        </ul>
+                    </div>
+                </figure>  
+                <figure>
+                    <img src="../Imagenes/helado5.jpg" class="imagen-menu" alt="torta">
+                    <div class="capa">
+                        <p>Torta</p><br>
+                        <p>Descripcion</p>
+                        <br><br>
+                        <ul>
+                            <li>Sabor1</li>
+                            <li>Sabor2</li>
+                            <li>Sabor3</li>
+                        </ul>
+                    </div>
+                </figure>
+                <figure>
+                    <img src="../Imagenes/helado6.jpg" class="imagen-menu" alt="bombones">
+                    <div class="capa">
+                        <p>Bombones</p><br>
+                        <p>Descripcion</p>
+                        <br><br>
+                        <ul>
+                            <li>Sabor1</li>
+                            <li>Sabor2</li>
+                            <li>Sabor3</li>
+                        </ul>
+                    </div>
+                </figure>
+                <figure>
+                    <img src="../Imagenes/helado7.jpg" class="imagen-menu" alt="postre-crocantino">
+                    <div class="capa">
+                        <p>Postre Crocantino</p><br>
+                        <p>Descripcion</p>
+                        <br><br>
+                        <ul>
+                            <li>Sabor1</li>
+                            <li>Sabor2</li>
+                            <li>Sabor3</li>
+                        </ul>
+                    </div>
+                </figure>            
+                <figure>
+                    <img src="../Imagenes/helado8.jpg" class="imagen-menu" alt="tentación-cadbury-almendras">
+                    <div class="capa">
+                        <p>Tentancion Cadbury & almendras</p><br>
+                        <p>Descripcion</p>
+                        <br><br>
+                        <ul>
+                            <li>Sabor1</li>
+                            <li>Sabor2</li>
+                            <li>Sabor3</li>
+                        </ul>
+                    </div>
+                </figure>
+            </div>
         </div>
-        <div class="">
-            <img src="../Imagenes/helado2.jpg" class="imagen-galeria" alt="capelinas-nuez">
+        <div class="buttons">
+          <button class="prev"><</button>
+          <button class="next">></button>
         </div>
-        <div class="">
-            <img src="../Imagenes/helado3.jpg" class="imagen-galeria" alt="cucuruchos">
+      </div>
+    <!--================ End Slider ================-->
+
+    <!--================ Start Review ================-->
+    <div id="review" class="div-review">
+        <h2>Reviews</h2>
+        <div class="reviews-container">
+            <div class="review1">
+              <img src="../Imagenes/PlanetaCream-Logo.png" alt="Foto del usuario">
+              <h3>Ana M.</h3>
+              <p>Los mejores sabores que he probado. La heladería ofrece una variedad única y deliciosa de helados que no se encuentra en otros lugares. El servicio es excepcional y el ambiente es acogedor. Recomiendo probar el sabor de avellana, es mi favorito</p>
+            </div>
+            <div class="review2">
+              <img src="../Imagenes/PlanetaCream-Logo.png" alt="Foto del usuario">
+              <h3>Juan P.</h3>
+              <p>La heladería es el lugar perfecto para un día caluroso. Los sabores son deliciosos y siempre frescos. El personal es amable y servicial. Lo recomiendo altamente para cualquier amante del helado</p>
+            </div>
+            <div class="review3">
+              <img src="../Imagenes/PlanetaCream-Logo.png" alt="Foto del usuario">
+              <h3>Sofía G.</h3>
+              <p>Me encanta esta heladería. Los sabores son únicos y auténticos, y el personal es amable y acogedor. Los precios son razonables y la porción es más que suficiente. Definitivamente regresaré</p>
+            </div>
+          </div>          
+    </div>
+     <!-- ================ End Review ================-->
+
+    <!-- Ubicacion -->
+    <div id="ubicacion" class="div-ubicacion">
+        <div class="titulo">
+            <h2>¿Donde podes encontrarnos?</h2>
+            <p>Direccion: Avenida General Guemes sur y San Martín</p>
         </div>
-        <div class="">
-            <img src="../Imagenes/helado4.jpg" class="imagen-galeria" alt="palitos">
-        </div>
-        <div class="">
-            <img src="../Imagenes/helado5.jpg" class="imagen-galeria" alt="torta">
-        </div>
-        <div class="">
-            <img src="../Imagenes/helado6.jpg" class="imagen-galeria" alt="bombones">
-        </div>
-        <div class="">
-            <img src="../Imagenes/helado7.jpg" class="imagen-galeria" alt="postre-crocantino">
-        </div>
-        <div class="">
-            <img src="../Imagenes/helado8.jpg" class="imagen-galeria" alt="tentación-cadbury-almendras">
-        </div>
-        <div class="">
-            <img src="" class="imagen-galeria" alt="">
-        </div>
-        <div class="">
-            <img src="" class="imagen-galeria" alt="">
-        </div>
-        <div class="">
-            <img src="" class="imagen-galeria" alt="">
-        </div>
-        <div class="">
-            <img src="" class="imagen-galeria" alt="">
+        <div class="div-mapa">
+            <iframe frameborder="0" scrolling="no" src="https://www.openstreetmap.org/export/embed.html?bbox=-65.9768968820572%2C-26.073578912881413%2C-65.97346633672716%2C-26.0714491239856&amp;layer=mapnik&amp;marker=-26.072514023275627%2C-65.97518160939217"></iframe>
         </div>
     </div>
+    
+    <!-- Contacto -->
+    <div id="contacto" class="div-contacto">
+        <h2>Contacto</h2>
+        <form id="contacto" action="#" method="post">
+            <label for="name">Nombre Completo:</label>
+            <input type="text" id="name" name="name" required>
+        
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+        
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    
+    <!-- Pie de Pagina -->
+    <div class="div-pie-pagina">
+        <p>@Todos los derechos reservados - 2023</p>
+    </div>
+
+
+    <!--================ Start Js ================-->
+    <script src="../Js/js.js"></script>
+    <!--================ End Js ================-->
 </body>
 </html>
